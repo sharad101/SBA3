@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <title>ShoppingList</title>
+</head>
+<body>
+    <h1>Dynamic Shopping List</h1>
+    
+    <div id="shoppingList">
+        <h2>My Shopping List</h2>
+        <ul id="itemsList">
+            <li>Apples <button class="deleteBtn">Delete</button></li>
+            <li>Oranges <button class="deleteBtn">Delete</button></li>
+            <li>Bananas <button class="deleteBtn">Delete</button></li>
+        </ul>
+
+        <form id="addItemForm">
+            <label for="itemInput">Add Item:</label>
+            <input type="text" id="itemInput" required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+</body>
+</html>
